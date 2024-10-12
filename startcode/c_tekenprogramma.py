@@ -22,6 +22,8 @@ def pen_up():
     turtle.penup()
 def pen_down():
     turtle.pendown()
+def clear():
+    turtle.clear()
 
 while True:
     move = input()
@@ -37,6 +39,8 @@ while True:
         pen_up()
     if move == 'pd':
         pen_down()
+    if move == 'clear':
+        clear()
     if move == 'stop':
         break
 
