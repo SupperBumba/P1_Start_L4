@@ -1,3 +1,7 @@
-# Maak een uitbreiding op de oefening favoriete dieren (a).
-# - Na het printen van de lijst vraag je welk dier uit de lijst moet.
-# - Nadien toon je de lijst opnieuw maar deze keer zonder het gekozen dier.
+animals = []
+animals.append(input("favorite animal"))
+animals.append(input("2nd favorite animal"))
+animals.append(input("3rd favorite animal"))
+print(animals)
+animals.remove(input("destroy who?"))
+print(animals)

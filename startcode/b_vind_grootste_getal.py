@@ -1,3 +1,3 @@
-# Maak een lijst met getallen.
-# Schrijf een functie vind_grootste_getal die de grootste waarde uit een lijst teruggeeft.
-# Gebruik een for-loop om de grootste waarde te vinden.
+numbers = [20, 49, 91, 62, 21]
+numbers.sort()
+print(numbers[len(numbers)-1])
